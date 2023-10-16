@@ -1,0 +1,417 @@
+@font-face{
+    font-family: merriBlackFont;
+    src: url(./../fonts/Merriweather-Black.ttf);
+}
+@font-face{
+    font-family: merriBoldFont;
+    src: url(./../fonts/Merriweather-Bold.ttf);
+}
+@font-face{
+    font-family: merriLightFont;
+    src: url(./../fonts/Merriweather-Light.ttf);
+}
+@font-face{
+    font-family: merriRegFont;
+    src: url(./../fonts/Merriweather-Regular.ttf);
+}
+@font-face{
+    font-family: cinzelFont;
+    src: url(./../fonts/CinzelDecorative-Black.ttf);
+}
+@font-face{
+    font-family: arabicFont;
+    src: url(./../fonts/NotoKufiArabic-SemiBold.ttf);
+}
+*{
+    font-family: merriRegFont;
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* start header */
+
+header h2 {
+    line-height: 50px;
+    font-family: merriBoldFont;
+}
+header .header-en h2{
+    font-size: 30px;
+    font-family: cinzelFont;
+}
+header .header-en h2 sup{
+    font-family: cinzelFont;
+    font-size: 26px;
+}
+header .header-ar h2 span{
+    color: #ed1d24;
+    font-weight: bold;
+}
+header .header-en h2 .span2, header .header-en .h4{
+    font-family: merriRegFont;
+    font-size: 30px;
+}
+header .header-ar h2{
+    font-family: arabicFont;
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+header .header-ar, header .header-en{
+    margin-top: 30px;
+}
+header .brdr{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 35px;
+    content: '';
+    width: 8px;
+    height: 150px;
+    background-color: #ed1d24;
+}
+header .address-header{
+    background-color: #ed1d24;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-flex;
+    padding: 7px 20px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+header .header-bottom .address{
+    background-color: #ed1d24;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 18px;
+}
+header .header-bottom{
+    /* border-top: 2px solid #d0d2d3; */
+    margin-top: -20%;
+    padding-top: 20px;
+}
+header .header-bottom p{
+    text-align: center;
+    color: #ed1d24;
+    font-size: 20px;
+}
+/* end header */
+
+/* start section1 */
+.section1{
+    position: relative;
+    z-index: 0;
+    border: 1px solid #ed1d24;
+    padding: 5px;
+    margin-top: 20px;
+}
+.section1 img{
+    width: 100%;
+}
+.section1 .section-footer p{ 
+    position: absolute;
+    background-color: #000;
+    opacity: .9;
+    bottom: -4px;
+    width: 98.2%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 20px;
+}
+/* end section1 */
+
+/* start section2 */
+.section2{
+    margin: 30px 0;
+}
+.section2 h3{
+    color: #ed1d24;
+    font-size: 30px;
+    text-align: center;
+    font-family: merriBoldFont;
+}
+.section2 h3 span{
+    font-family: merriBlackFont;
+    color: #000;
+    font-weight: bold;
+    font-size: 35px;
+}
+.section2 h2 {
+    color: #ed1d24;
+    font-size: 45px;
+    text-align: center;
+    font-family: merriBoldFont;
+}
+.section2 h2 span.leaders{
+    font-family: merriBlackFont;
+    color: #000;
+    font-weight: bold;
+}
+.section2 h2 span.meet{
+    font-size: 30px;
+}
+.section2 .hr{
+    border-bottom: 5px solid #ed1d24;
+    width: 90%;
+    margin: 40px auto;
+}
+.section2 p.text{
+    font-size: 25px;
+    font-family: merriLightFont;
+}
+.section2 button.btn-dark{
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 20px auto;
+    padding: 8px;
+    font-size: 22px;
+    font-family: merriLightFont;
+}
+/* end section2 */
+
+/* start section3 */
+.section3{
+    background-color: #f2f2f2;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 0 0 18% 0;
+}
+.section3 .text-section3{
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+}
+.section3 .text-section3 h3{
+    color: #ed1d24;
+    line-height: 40px;
+}
+.section3 .text-section3 h3 b{
+    font-size: 35px;
+}
+/* end section3 */
+
+/* start section4 */
+.section4{
+    border-radius: 0 0 0 18%;
+}
+.section4 .text-section3{
+    justify-content: start;
+}
+.section4 .text-section3 h3{
+    color: #000;
+    text-align: right;
+    line-height: 40px;
+}
+/* end section4 */
+
+/* start footer */
+footer{
+    margin: 30px 0;
+}
+footer p{
+    font-size: 26px;
+}
+footer p b{
+    color: #ed1d24;
+}
+footer .hr{
+    border-bottom: 1px solid #ed1d24;
+    margin: 30px 0;
+}
+footer .links{
+    width: 85%;
+    margin: auto;
+    line-height: 45px;
+}
+footer a{
+    color: #ed1d24 !important;
+    text-decoration: none;
+    font-size: 22px;
+}
+footer a.btn-danger{
+    border-radius: 25px;
+    padding: 10px 30px;
+    color: #fff !important;
+}
+/* end footer */
+
+/* start media query */
+@media only screen and (max-width: 1199px) {
+    header .header-ar h2 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    header h2 br {
+        display: none;
+    }
+    header .header-ar h2{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+    header .header-en h2{
+        font-size: 20px !important;
+        line-height: 30px;
+    }
+    header .header-en h2 sup {
+        font-size: 20px;
+    }
+    header .header-bottom {
+        margin-top: -25%;
+    }
+    header .brdr {
+        margin-left: 20px;
+        width: 4px;
+        height: 100px;
+    }
+    header .address-header {
+        font-size: 15px;
+    }
+    .section1 .section-footer p {
+        bottom: -5px;
+        padding: 20px 0;
+        font-size: 16px;
+    }
+    .section2 h2 {
+        font-size: 35px;
+    }
+    .section2 h3 {
+        font-size: 25px;
+    }
+    .section2 h3 span {
+        font-size: 30px;
+    }
+    .section2 p.text {
+        font-size: 21px;
+    }
+    .section3 .text-section3{
+        margin-top: 0;
+    }
+    .section3 .text-section3 h3 {
+        line-height: 35px;
+    }
+    .section3 .text-section3 h3 br{
+        display: none;
+    }
+    .section3 .text-section3 h3 b {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 22px;
+    }
+    footer .links{
+        width: 100%;
+    }
+    footer a {
+        font-size: 18px;
+    }
+    footer a.btn-danger {
+        padding: 5px 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header{
+        margin: auto;
+        text-align: center;
+    }
+    header h2{
+        text-align: center;
+    }
+    header .brdr{
+        display: none;
+    }
+    header img{
+        max-height: 200px;
+    }
+    header .header-bottom {
+        margin-top: 0%;
+    }
+    .section1 .section-footer p {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+    .section2 p.text {
+        font-size: 19px;
+    }
+    .section2 button.btn-dark {
+        width: 50%;
+        font-size: 20px;
+    }
+    .section3 .text-section3 h3 {
+        text-align: center;
+        margin: 20px 0;
+    }
+    footer p {
+        font-size: 20px;
+    }
+    footer a {
+        display: flex !important;
+        justify-content: center !important;
+    }
+    footer a.btn-danger {
+        width: max-content;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    header img {
+        max-height: 150px;
+    }
+    header .header-ar, header .header-en {
+        margin-top: 10px;
+    }
+    header .header-en h2 .span2, header .header-en .h4 {
+        font-size: 20px;
+    }
+    header .header-en .h4 {
+        font-size: 20px;
+    }
+    header .header-ar h2 {
+        font-size: 15px;
+    }
+    header .header-bottom p {
+        font-size: 18px;
+    }
+    .section1 .section-footer p {
+        padding: 0;
+        font-size: 12px;
+        bottom: -8px;
+    }
+    .section2 h2 {
+        font-size: 28px;
+    }
+    .section2 h3 {
+        font-size: 22px;
+    }
+    .section2 h3 span {
+        font-size: 25px;
+    }
+    .section2 p.text {
+        font-size: 18px;
+    }
+    .section2 button.btn-dark {
+        width: 55%;
+        font-size: 16px;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    .section3 .text-section3 h3 {
+        font-size: 20px;
+    }
+}
+/* end media query */
